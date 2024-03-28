@@ -32,6 +32,8 @@ function App() {
     <Card name="sneha" image={iarr[1]} />
     <Card name={allnames[2]} image={iarr[1]} />
 
+{/* 
+    //onClick bas function chahta hai uska koe return value nahi hona chahia isilia onClick me function or call back hi pass krte hai */}
     <h1>the value: {counter}</h1>
     <button onClick={addone}>Add</button>
     <button onClick={removeone}>Remove</button>
