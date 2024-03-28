@@ -8,4 +8,4 @@ const reactElement={
 }
 const mainContainer=document.querySelector('#root');
 
-CustomRender(reactElement,mainContainer)
+CustomRender(reactElement,mainContainer) 
