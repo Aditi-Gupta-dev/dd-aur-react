@@ -1,19 +1,16 @@
-// import { useState } from 'react'
+import React from 'react'
 import Header from './header/Header'
-import Home from './home/Home'
 import Footer from './footer/Footer'
+import { Outlet } from 'react-router-dom'
 
-
-function App() {
-  
-
+function Layout() {
   return (
     <>
       <Header/>
-      <Home/>
+      <Outlet/>
       <Footer/>
     </>
   )
 }
 
-export default App
+export default Layout
