@@ -41,6 +41,7 @@ setpassword(pass);
 
   const copyPassword=useCallback(()=>{
     passwordRef.current?.select();
+    // passwordRef.current?.setSelectionRange(0,4); //isse pehle ke 4 hi select honge
     window.navigator.clipboard.writeText(password)
   },[password])
 
