@@ -1,14 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import UserContextProvider from './context/UserContextprovider'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      
+      <UserContextProvider>
+      {/* jo bhi iske bich me likha hai usko sare states ka access mil jaega */}
+
+      <h1>hi</h1>
+
+      </UserContextProvider>
     </>
   )
 }
